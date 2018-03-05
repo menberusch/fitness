@@ -45,7 +45,7 @@ h1, h2, p, h3 {
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   height: 50vw;
-  background: url(images/main-background.jpg) no-repeat top/cover;
+  background: url(images/main-background.jpg) no-repeat top/cover fixed;
 }
 
 @media screen and (max-width: 992px) {
@@ -74,7 +74,7 @@ h1, h2, p, h3 {
   }
 }
 
-@media screen and (max-width: 646px) and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .main-section .menu-button {
     right: -30%;
   }

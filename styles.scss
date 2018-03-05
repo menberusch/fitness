@@ -51,12 +51,11 @@ h1,h2,p,h3{
 
 .main-section{
 	position: relative;
-	
 	color: #fff;
 	text-transform: uppercase;
 	font-family: $lato;
 	height: 50vw;
-	background: url(images/main-background.jpg) no-repeat top/cover;
+	background: url(images/main-background.jpg) no-repeat top/cover fixed;
 	@media screen and (max-width: 992px) {
 		height: 100vw;
 	}
@@ -72,9 +71,9 @@ h1,h2,p,h3{
 		right: -55%;
 		@media screen and (max-width: 646px) {
 			display: inline-block;
-			@media screen and (max-width: 420px) {
-				right: -30%;
-			}
+		}
+		@media screen and (max-width: 420px) {
+			right: -30%;
 		}
 	}
 
